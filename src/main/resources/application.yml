@@ -1,0 +1,10 @@
+# application.propertise에서 application.yml로 변경함.
+# 이유는 중복되는 코드가 적어지고, 들여쓰기로 상/하위 관계를 훨씬 직관적으로 나타냄
+
+# DB 설정
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+    username: cos
+    password: cos1234
